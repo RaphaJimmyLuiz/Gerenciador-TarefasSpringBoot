@@ -620,6 +620,12 @@ public void setData(LocalDate data) {
 ```
 Este método define o valor do atributo `data`.
 
+Esta documentação detalha os principais componentes da aplicação "Gerenciador de Tarefas", fornecendo uma visão clara de sua estrutura e funcionalidade.
+Diagrama de Arquitetura – Gerenciador de Tarefas
+![Diagrama de Arquitetura](https://github.com/RaphaJimmyLuiz/Gerenciador-TarefasSpringBoot/blob/main/Diagrama%20de%20Arquitetura-GerenciadorTarefas.png)
+Diagrama de Classes - Gerenciador de Tarefas
+![Diagrama de Classes](https://github.com/RaphaJimmyLuiz/Gerenciador-TarefasSpringBoot/blob/main/Diagrama%20de%20Classes-GerenciadorTarefas.png)
+
 ## Conclusão
 
 A classe `Tarefa` é uma entidade JPA que mapeia para uma tabela no banco de dados. Ela contém atributos que representam as colunas da tabela e métodos getters e setters para acessar e modificar esses atributos. A anotação `@Entity` indica que esta classe é uma entidade JPA, enquanto `@Id` e `@GeneratedValue` configuram o campo `id` como a chave primária da entidade e especificam que seu valor será gerado automaticamente pelo banco de dados.
