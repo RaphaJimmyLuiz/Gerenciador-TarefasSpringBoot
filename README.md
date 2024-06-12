@@ -15,4 +15,17 @@ Esta é uma API de gerenciamento de tarefas construída com Spring Boot. Ela per
    git clone https://github.com/seu-usuario/gerenciador-tarefas.git
    cd gerenciador-tarefas
 
+2. Compile o projeto:
+
+    ```bash
+      ./mvnw clean install
+      
+3. Execute a aplicação:
+
+      ```bash
+      ./mvnw spring-boot:run
+
+## Testando a API:
+Você pode testar a API usando ferramentas como Postman ou Insomnia.
+
 A aplicação estará disponível em http://localhost:8080.
